@@ -80,7 +80,7 @@ public class KafkaLandscapeExchangeService implements Runnable {
           continue;
         }
 
-        LOGGER.info("Serialized landscape with id {}: {}", l.getId(), serializedLandscape);
+        LOGGER.info("Serialized landscape with id {}:", l.getId());
 
         // you may persist the landscape here
       }
